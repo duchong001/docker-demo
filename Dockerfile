@@ -1,7 +1,9 @@
 #依赖jdk8
 FROM java:8
 #维护者信息
-MAINTAINER duchong 1427222829@qq.com
+MAINTAINER duchong <1427222829@qq.com>
+#系统编码
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 #容器卷
 VOLUME /tmp
 #拷贝jar包
