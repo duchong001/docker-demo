@@ -1,0 +1,8 @@
+version: "3"
+services:
+  docker-demo:
+    image: registry.cn-hangzhou.aliyuncs.com/duchong/demo-repo/summer_travel/docker-demo:1.0
+    container_name: docker-demo
+    restart: always
+    ports:
+      - "8080:8080"
